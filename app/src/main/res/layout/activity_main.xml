@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sunsun.scrollviewdemo.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:fadingEdge="none"
+    android:fastScrollEnabled="false"
+    android:overScrollMode="never"
+    android:smoothScrollbar="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:background="#ff00ff00"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <com.sunsun.scrollviewdemo.TabStripView
+            android:id="@+id/tab_strip_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dip" />
+
+        <com.sunsun.scrollviewdemo.ScrollableViewPager
+            android:id="@+id/scrollable_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</com.sunsun.scrollviewdemo.CustomScrollView>

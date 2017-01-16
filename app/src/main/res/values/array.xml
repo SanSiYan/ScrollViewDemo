@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="down_stream_manager">
+        <item>tab1</item>
+        <item>tab2</item>
+        <item>tab3</item>
+    </string-array>
+
+</resources>
